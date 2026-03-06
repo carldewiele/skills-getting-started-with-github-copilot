@@ -1,3 +1,55 @@
+.participants-section {
+  margin-top: 10px;
+  padding: 10px;
+  background: #e3f2fd;
+  border-radius: 4px;
+  border: 1px solid #bbdefb;
+}
+
+.participants-section strong {
+  color: #1976d2;
+  font-size: 15px;
+}
+
+.participants-list {
+  margin: 8px 0 0 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.participant-email {
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  margin-right: 8px;
+}
+
+.delete-participant {
+  color: #c62828;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 2px;
+  transition: color 0.2s;
+  border-radius: 50%;
+  padding: 2px 6px;
+}
+.delete-participant:hover {
+  background: #ffcdd2;
+  color: #b71c1c;
+}
+
+.participants-list li {
+  margin-bottom: 3px;
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
 * {
   box-sizing: border-box;
   margin: 0;
